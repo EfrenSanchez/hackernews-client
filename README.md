@@ -4,7 +4,7 @@
 
 ![Screenshot](./docs/capture.png)
 
-#### 🕹️ Demo
+#### 🕹️ Demo: https://efrensanchez.github.io/hackernews-client/
 
 ## ✋ Before Getting Started You Should…
 

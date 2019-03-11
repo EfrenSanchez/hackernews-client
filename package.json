@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "description": " React JS and the fundamentals such as components, state, props, JSX, events, etc.",
-  "keywords": ["react", "HOC", "HOF"],
+  "keywords": [
+    "react",
+    "HOC",
+    "HOF"
+  ],
   "repository": "https://github.com/EfrenSanchez/hackernews-client.git",
   "author": "Efren Sanchez <efren.sanchezgon@gmail.com>",
+  "homepage": "https://efrensanchez.github.io/hackernews-client/",
   "dependencies": {
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
@@ -19,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,6 +38,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "react-test-renderer": "^16.8.4"
   }
 }
