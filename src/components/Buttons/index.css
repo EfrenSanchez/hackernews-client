@@ -1,0 +1,37 @@
+
+ /* ------ Button-inline ----- */
+.button-inline {
+  border-width: 0;
+  background: transparent;
+  color: inherit;
+  text-align: inherit;
+  -webkit-font-smoothing: inherit;
+  padding: 0;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.button-inline:hover,
+.button-inline:focus,
+.button-inline:active,
+.button-inline--active {
+  border-radius: 0;
+  border-bottom: 1px solid #38BB6C;
+  outline: none;
+}
+
+/* ------ Button ----- */
+.button {
+  background-color: #38BB6C;
+  border-bottom: 3px solid rgb(46, 146, 86);
+  text-transform: uppercase;
+  color: black;
+}
+
+.button:hover,
+.button:focus,
+.button:active,
+.button--active {
+  outline: none;
+  opacity: 0.8;
+}
