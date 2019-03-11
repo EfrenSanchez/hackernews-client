@@ -2,6 +2,10 @@
   "name": "hackernews-client",
   "version": "0.1.0",
   "private": true,
+  "description": " React JS and the fundamentals such as components, state, props, JSX, events, etc.",
+  "keywords": ["react", "HOC", "HOF"],
+  "repository": "https://github.com/EfrenSanchez/hackernews-client.git",
+  "author": "Efren Sanchez <efren.sanchezgon@gmail.com>",
   "dependencies": {
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
